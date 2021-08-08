@@ -13,7 +13,7 @@ const h2 = document.querySelector('h2');
 h2.onclick = function changeContent() {
   h2.textContent = "I am He // You are He as You are Me";
   h2.style = "Color: white";
-  h2.style.transform = 'rotate(25deg)'; 
+  h2.style.transform = 'skewX(25deg)'; 
 }
 
 h2.addEventListener('dblclick', function () {
@@ -21,7 +21,6 @@ h2.addEventListener('dblclick', function () {
   h2.style = "Color: red";
   h2.style.transform = 'rotateY(180deg)'; 
 });
-
 
 document.addEventListener('keydown', function () {
   if (h2.textContent === "REDRUM") {
