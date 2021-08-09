@@ -17,15 +17,15 @@ h2.onclick = function changeContent() {
 }
 
 h2.addEventListener('dblclick', function () {
-  h2.textContent = "REDRUM";
+  h2.textContent = "Aibohphobia";
   h2.style = "Color: red";
   h2.style.transform = 'rotateY(180deg)'; 
 });
 
 document.addEventListener('keydown', function () {
-  if (h2.textContent === "REDRUM") {
-    for (let i = 0; i < 40; i++) {
-      h2.textContent += ` 666 `;
+  if (h2.textContent === "Aibohphobia") {
+    for (let i = 0; i < 10; i++) {
+      h2.textContent  += `   level  radar  noon  civic    `;
   } } else if (h2.textContent === "I am He // You are He as You are Me") {
       h2.textContent += ' // We are All Together';
       } 
