@@ -1,6 +1,6 @@
 const buttonL = document.getElementById("navbarL");
 buttonL.addEventListener('click', function() {
-  alert('These are my Projects!');
+  alert('Check out my GitHub!');
 });
 
 const buttonR = document.getElementById("navbarR");
